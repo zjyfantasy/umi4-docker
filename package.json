@@ -1,6 +1,7 @@
 {
+  "version": "0.0.1",
   "private": true,
-  "author":"zhongjinyan <zhongjinyan@biad.com.cn>",
+  "author": "zhongjinyan <zhongjinyan@biad.com.cn>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",

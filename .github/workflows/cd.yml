@@ -67,7 +67,7 @@ jobs:
           asset_content_type: application/zip
       # 把制品上传到部署机器
       - name: Upload to Deploy Server
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        uses: easingthemes/ssh-deploy@v2.2.11
         env:
           # SSH_PRIVATE_KEY为准备工作步骤三中生成密钥对里的私钥
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_TOKEN }}
